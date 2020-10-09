@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+*, *:before, *:after {
+    
+    box-sizing: inherit;
+}
+
+body {
+    
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+main {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    border-spacing: 0.5rem;
+    height: 70vh;
+    width: 28vw;
+}
+
+.numberBtn {
+    background-color:black;
+    color: white;
+}
+.operatorBtn {
+    background-color:#FF9B9C;
+    color: black;
+}
+td {
+    
+    background-color: black;
+
+}
+td input {
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-style: none;
+    width: 100%;
+    height:100%;
+}
+td input:active {
+    background-color:#FF9B9C;
+}
+td input:hover {
+    opacity:70%;
+}
+
+.screen {
+    background-color: hsl(0, 100%, 90%)
+}
+#result {
+    padding: 0.5rem;
+    background-color: hsl(0, 100%, 90%);
+    color: black;
+}
+#title {
+    color: white;
+}
